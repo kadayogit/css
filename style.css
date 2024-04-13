@@ -1,0 +1,12 @@
+.container {
+    background-color: brown;
+    text-align: center;
+    font-size: 18px;
+    font-family: monospace;
+    padding: 15px;
+    color: #ffffff;
+}
+h1 {
+    color: blue;
+    font-size: 45px;
+}
