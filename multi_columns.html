@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- multi columns css -->
+    <style>
+        .cols {
+            column-count: 3;
+            column-gap: 30px;
+            column-rule-style: solid;
+            column-rule-width: 2px;
+            column-rule-color: lightblue;
+        }
+        /* responsive layout columns */
+        @media screen and (max-width: 768px) {
+            .cols {
+                column-count: 1;
+            }
+        }
+        /* resize css */
+        .resize {
+            resize: horizontal;
+            overflow: auto;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Multi Columns CSS</h1>
+    <!-- multi comlumns examples -->
+    <div class="cols">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quidem.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quidem.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quidem.
+        </p>
+    </div>
+
+    <!-- CSS Resizing propery -->
+    <div class="resize">
+        <p>Lorem ipsum dolor sit amet</p>
+    </div>
+</body>
+</html>
