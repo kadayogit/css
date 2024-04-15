@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadows </title>
+    <!-- internal css -->
+    <style>
+        .shadow img {
+       
+        }
+        /* main class */
+        .main {
+           display: flex;
+        }
+        .card {
+        width: 250px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        margin: 5px;
+        border-radius: 10px;
+        }
+        .header {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        font-size: 40px;
+        height: 200px;
+        border-radius: 10px;
+        }
+        .container {
+        padding: 10px;
+        }
+        /* responsive cards */
+        @media screen and (max-width: 600px) {
+            .main {
+                display: inline-block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- CSS shadow example -->
+    <div class="shadow">
+        <!-- add a image here -->
+        <img src="rock.jpg" alt="" alt="">
+    </div>
+
+    <!-- Cards -->
+  <div class="main">
+    <div class="card">
+        <div class="header">
+            <h1>1</h1>
+        </div>
+        <div class="container"> 
+            <p>January 1, 2021</p>
+        </div>
+    </div>
+    <!-- CSS shadow example -->
+    <div class="card">
+        <div class="header">
+            <h1>2</h1>
+        </div>
+        <div class="container"> 
+            <p>January 2, 2021</p>
+        </div>
+    </div>
+  </div>
+    
+</body>
+</html>
